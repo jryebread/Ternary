@@ -3,7 +3,7 @@
  <tileset firstgid="1" name="Dungeon Ruins Tileset Day" tilewidth="32" tileheight="32" tilecount="512" columns="32">
   <image source="../../assetes/Dungeon Ruins Tileset/Dungeon Ruins Tileset Day.png" width="1024" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Dungeon Ruins Tileset Day_LARGE" tilewidth="32" tileheight="32" tilecount="3042" columns="64">
+ <tileset firstgid="513" name="Dungeon Ruins Tileset Day_LARGE" tilewidth="32" tileheight="32" tilecount="2048" columns="64">
   <image source="../../assetes/Dungeon Ruins Tileset/Dungeon Ruins Tileset Day_LARGE.png" width="2048" height="1024"/>
  </tileset>
  <imagelayer id="3" name="Image Layer 1" offsetx="-1" offsety="0">
@@ -28,9 +28,9 @@
 0,0,0,0,0,0,468,469,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,295,0,0,0,0,0,0,0,293,293,293,293,293,293,293,293,293,
-0,0,0,0,0,0,427,428,0,328,457,458,459,427,335,429,293,293,293,293,293,293,293,293,293,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,
+0,0,0,0,0,0,0,0,295,0,0,0,0,0,0,0,38,39,71,35,70,35,35,67,293,
+0,0,0,0,0,0,427,428,0,328,457,458,459,427,335,429,70,67,67,67,67,67,293,67,293,
 293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,
 293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293,293
 </data>
