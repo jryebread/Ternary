@@ -1,0 +1,49 @@
+buildscript {
+	repositories {
+		mavenLocal()
+		mavenCentral()
+		google()
+
+		maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+		jcenter()
+	}
+	dependencies {
+
+	}
+}
+
+
+
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
+}
+
+allprojects {
+	apply plugin: 'eclipse'
+	apply plugin: 'idea'
+}
+
+configure(subprojects) {
+	apply plugin: 'java-library'
+	apply plugin: 'scala'
+	sourceCompatibility = 8.0
+	compileJava {
+		options.incremental = true
+	}
+}
+
+subprojects {
+	version = '0.0.1-SNAPSHOT'
+	ext.appName = 'ProjectLambda'
+	repositories {
+		mavenLocal()
+		mavenCentral()
+		maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+		maven { url 'https://jitpack.io' }
+		jcenter()
+	}
+}
+
+eclipse.project.name = 'ProjectLambda' + '-parent'

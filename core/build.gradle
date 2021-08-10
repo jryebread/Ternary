@@ -1,0 +1,23 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
+}
+
+dependencies {
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+
+	api "com.badlogicgames.gdx:gdx:$gdxVersion"
+	api "org.scala-lang:scala-library:$scalaVersion"
+	api "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
+	api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+	api "com.badlogicgames.box2dlights:box2dlights:$box2dlightsVersion"
+	api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+	api "com.badlogicgames.gdx-controllers:gdx-controllers-core:$gdxControllersVersion"
+	api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+	api "com.badlogicgames.ashley:ashley:$ashleyVersion"
+	api "com.strongjoshua:libgdx-inGameConsole:$inGameConsoleVersion"
+}

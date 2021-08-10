@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "? ",
+		"body": "Scavenger: Greetings Traveler, what brings you to this world?\n\n[[43096834...|LeaveGone]]\n[[a763742576...To seek knowledge|MORE]]",
+		"position": {
+			"x": 483,
+			"y": -204
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeaveGone",
+		"tags": "!",
+		"body": "Scavenger: Hmm, well thats sad.\n\n[[Leave]]",
+		"position": {
+			"x": 245,
+			"y": 143
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MORE",
+		"tags": "?",
+		"body": "Scavenger: For one thing, surprised you speak in hex! You must be far out from this quadrant. I don't got much knowledge for you I'm afraid. Where you exactly from Stranger?\n\n[[Earth|Earth]]",
+		"position": {
+			"x": 701,
+			"y": 138
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Leave",
+		"tags": "X",
+		"body": "Scavenger: I'll let you be on your way partner.",
+		"position": {
+			"x": 277,
+			"y": 444
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Earth",
+		"tags": "X",
+		"body": "Scavenger: Earth you say? Never heard of it. Most of the databases and libraries were destroyed when the Unknown came. Good luck out here friend, stay in the light if possible.",
+		"position": {
+			"x": 724,
+			"y": 418
+		},
+		"colorID": 0
+	}
+]
